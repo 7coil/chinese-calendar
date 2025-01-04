@@ -18,6 +18,7 @@
   padding-right: 1cm;
   padding-bottom: 1cm;
 
+  box-sizing: border-box;
   border: 1px dashed;
   width: 36.7cm;
   height: 25cm;
