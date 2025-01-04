@@ -1,0 +1,33 @@
+.massive-calendar--table {
+  table-layout: fixed;
+  margin: -2px;
+}
+
+.massive-calendar--table th, .massive-calendar--table td {
+  text-align: center;
+  line-height: 0.9;
+  border: 1px solid black;
+}
+
+.massive-calendar--table th {
+  text-transform: uppercase;
+  font-size: 14pt;
+}
+
+.massive-calendar--colspan-1 {
+  width: calc(100% / 7)
+}
+
+.massive-calendar--day {
+  vertical-align: top;
+}
+
+.massive-calendar--table .massive-calendar--value {
+  font-size: 64pt;
+  font-weight: bold;
+}
+
+.massive-calendar--table .massive-calendar--weekday-6,
+.massive-calendar--table .massive-calendar--weekday-7 {
+  color: red;
+}

@@ -1,0 +1,55 @@
+.mini-calendar--container {
+  display: flex;
+  gap: 0.2em;
+}
+
+.mini-calendar--sidebar {
+  background-color: rgb(240, 159, 159);
+  display: flex;
+  flex-direction: column;
+  padding: 0.2em;
+  text-align: center;
+  font-weight: bold;
+}
+
+.mini-calendar--sidebar--month-digit {
+  color: red;
+  font-size: 20pt;
+  flex-grow: 1;
+  transform-origin: top;
+  transform: translateY(-0.2cm) scaleY(1.5);
+}
+.mini-calendar--sidebar--month-label {
+  
+}
+.mini-calendar--sidebar--year {
+  color: red;
+}
+
+.mini-calendar--table {
+  table-layout: fixed;
+  border-collapse: collapse;
+  width: 100%;
+  height: 100%;
+}
+
+.mini-calendar--table th, .mini-calendar--table td {
+  text-align: center;
+  line-height: 0.9;
+}
+
+.mini-calendar--table thead tr th {
+  font-size: 8pt;
+  text-transform: uppercase;
+  padding-bottom: 3px;
+  border-bottom: 2px solid black;
+}
+
+.mini-calendar--colspan-1 {
+  width: calc(100% / 7)
+}
+
+.mini-calendar--table .mini-calendar--weekday-6,
+.mini-calendar--table .mini-calendar--weekday-7 {
+  color: red;
+}
