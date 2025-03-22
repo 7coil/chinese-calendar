@@ -24,6 +24,7 @@ const CalendarSheet = ({
               className="calendar-sheet--header--previous-month--calendar"
               year={year}
               month={month - 1}
+              side="left"
             />
           </div>
           <div className="calendar-sheet--header--year">
@@ -41,6 +42,7 @@ const CalendarSheet = ({
               className="calendar-sheet--header--next-month--calendar"
               year={year}
               month={month + 1}
+              side="right"
             />
           </div>
         </div>

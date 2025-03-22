@@ -5,16 +5,18 @@ import cx from "classnames";
 const MiniCalendar = ({
   month,
   year,
+  side,
   className,
 }: {
   month: number;
   year: number;
+  side: "left" | "right";
   className?: string;
 }) => {
   const data = useCalendar({ month, year });
 
   return (
-    <div className={cx("mini-calendar--container", className)}>
+    <div className={cx("mini-calendar--container", `mini-calendar--${side}-side`, className)}>
       <div className="mini-calendar--sidebar">
         <div className="mini-calendar--sidebar--month-digit">
           {data.month}

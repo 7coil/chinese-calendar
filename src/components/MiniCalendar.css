@@ -53,3 +53,10 @@
 .mini-calendar--table .mini-calendar--weekday-7 {
   color: red;
 }
+
+.mini-calendar--left-side {
+  flex-direction: row;
+}
+.mini-calendar--right-side {
+  flex-direction: row-reverse;
+}
